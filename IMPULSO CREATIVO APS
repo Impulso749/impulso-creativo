@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Impulso Creativo APS</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #fafafa;
+      color: #333;
+    }
+
+    header {
+      background-color: #111;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+
+    nav {
+      margin-top: 10px;
+    }
+
+    nav a {
+      margin: 0 10px;
+      color: white;
+      text-decoration: none;
+    }
+
+    main {
+      padding: 2rem;
+    }
+
+    section {
+      margin-bottom: 3rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: #eee;
+      font-size: 0.9rem;
+    }
+
+    h2 {
+      border-bottom: 2px solid #ccc;
+      padding-bottom: 0.5rem;
+    }
+
+    ul {
+      padding-left: 1.2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Impulso Creativo APS</h1>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#eventi">Eventi</a>
+      <a href="#tesseramento">Tesseramento</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Home -->
+    <section id="home">
+      <h2>Chi siamo</h2>
+      <p>Siamo un'associazione di promozione sociale dedicata alla creatività, alla musica e alla cultura. Organizziamo eventi, offriamo una sala prove e uno studio di registrazione.</p>
+    </section>
+
+    <!-- Eventi -->
+    <section id="eventi">
+      <h2>Eventi</h2>
+      <ul>
+        <li><strong>La Cura</strong> – Mostra d’arte | 25 Maggio 2025</li>
+        <li><strong>Live is Better</strong> – Contest musicale | Data da definire</li>
+      </ul>
+    </section>
+
+    <!-- Tesseramento -->
+    <section id="tesseramento">
+      <h2>Tesseramento</h2>
+      <p>Per partecipare alle nostre attività è necessario essere soci.</p>
+      <p>Compila il modulo e vieni a trovarci presso la nostra sede:</p>
+      <p><strong>Via alla Chiesa di Pieverossa 24, Bagnolo in Piano (RE)</strong></p>
+      <p>Quota associativa: €10/anno.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Impulso Creativo APS</p>
+  </footer>
+</body>
+</html>
