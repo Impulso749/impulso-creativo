@@ -98,7 +98,7 @@ footer {
 .hero {
   padding: 4rem 2rem;
   text-align: center;
-  background-image: url('home_banner.jpg'); /* nome del file immagine */
+  background-image: url('home_banner.jpg'); /* home_banner.jpg */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
