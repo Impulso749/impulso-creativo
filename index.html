@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Impulso Creativo APS</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Impulso Creativo APS</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#eventi">Eventi</a></li>
+        <li><a href="#login">Login Soci</a></li>
+        <li><a href="#contatti">Contatti</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h2>Benvenuti!</h2>
+      <p>Promuoviamo la creatività attraverso musica, arte ed eventi comunitari.</p>
+    </section>
+
+    <section id="eventi" class="info">
+      <h3>Prossimi Eventi</h3>
+      <ul>
+        <li>🎨 Mostra "La Cura" – 25 maggio</li>
+        <li>🎶 Live Contest – 15 giugno</li>
+        <li>📷 Workshop di Fotografia – 5 luglio</li>
+      </ul>
+    </section>
+
+    <section id="login" class="info">
+      <h3>Area Riservata Soci</h3>
+      <input type="text" id="user" placeholder="Nome utente" />
+      <input type="password" id="pass" placeholder="Password" />
+      <button onclick="login()">Accedi</button>
+      <p id="loginResult"></p>
+    </section>
+
+    <section id="contatti" class="info">
+      <h3>Contattaci</h3>
+      <form onsubmit="inviaMessaggio(event)">
+        <input type="text" id="nome" placeholder="Il tuo nome" required />
+        <input type="email" id="email" placeholder="La tua email" required />
+        <textarea id="messaggio" placeholder="Scrivi il tuo messaggio" required></textarea>
+        <button type="submit">Invia</button>
+      </form>
+      <p id="confermaInvio"></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Impulso Creativo APS - Tutti i diritti riservati</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
