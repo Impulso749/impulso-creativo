@@ -96,12 +96,26 @@ footer {
   box-shadow: 0 0 20px rgba(255, 255, 255, 0.4);
 }
 .hero {
+  position: relative;
   padding: 4rem 2rem;
   text-align: center;
-  background-image: url('home_banner.jpg'); /* home_banner.jpg */
+  color: white;
+  overflow: hidden;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url('home_banner.jpg');
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
-  color: white;
+  opacity: 0.5; /* <--- QUI decidi quanto opacizzare */
+  z-index: 0;
+}
+
+.hero h2, .hero p {
+  position: relative;
+  z-index: 1;
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
 }
