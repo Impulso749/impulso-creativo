@@ -3,8 +3,8 @@ backend:
   name: git-gateway
   branch: main
 
-media_folder: "static/uploads"
-public_folder: "/uploads"
+media_folder: "static/images"
+public_folder: "/images"
 
 collections:
   - name: "pages"
@@ -14,4 +14,4 @@ collections:
     slug: "{{slug}}"
     fields:
       - { label: "Titolo", name: "title", widget: "string" }
-      - { label: "Contenuto", name: "body", widget: "markdown" }
+      - { label: "Corpo", name: "body", widget: "markdown" }
