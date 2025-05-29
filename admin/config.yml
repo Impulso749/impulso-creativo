@@ -2,40 +2,20 @@ backend:
   name: git-gateway
   branch: main
 
-media_folder: "uploads"
-public_folder: "/uploads"
+media_folder: "static/img"
+public_folder: "/img"
 
 collections:
-  - name: "chi_siamo"
-    label: "Chi Siamo"
+  - name: "pages"
+    label: "Pagine"
     files:
-      - label: "Chi Siamo"
-        name: "chi_siamo"
-        file: "contenuti/chi_siamo.md"
+      - label: "Homepage"
+        name: "home"
+        file: "content/home.md"
         fields:
           - { label: "Titolo", name: "title", widget: "string" }
           - { label: "Contenuto", name: "body", widget: "markdown" }
 
-  - name: "eventi"
-    label: "Eventi"
-    folder: "contenuti/eventi"
-    create: true
-    slug: "{{slug}}"
-    fields:
-      - { label: "Titolo", name: "title", widget: "string" }
-      - { label: "Data", name: "data", widget: "datetime" }
-      - { label: "Descrizione", name: "body", widget: "markdown" }
-      - { label: "Immagine", name: "immagine", widget: "image" }
-
-  - name: "tessera"
-    label: "Tessera"
-    files:
-      - label: "Tessera"
-        name: "tessera"
-        file: "contenuti/tessera.md"
-        fields:
-          - { label: "Titolo", name: "title", widget: "string" }
-          - { label: "Contenuto", name: "body", widget: "markdown" }
 
   - name: "download_utili"
     label: "Download Utili"
