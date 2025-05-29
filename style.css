@@ -110,7 +110,7 @@ footer {
   background-image: url('home_banner.jpg');
   background-size: cover;
   background-position: center;
-  opacity: 0.3; 
+  opacity: 0.5; /* <--- QUI decidi quanto opacizzare */
   z-index: 0;
 }
 
