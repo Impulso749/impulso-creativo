@@ -98,7 +98,6 @@ footer {
 .hero {
   position: relative;
   padding: 4rem 2rem;
-  text-align: center;
   color: white;
   overflow: hidden;
 }
@@ -110,12 +109,13 @@ footer {
   background-image: url('home_banner.jpg');
   background-size: cover;
   background-position: center;
-  opacity: 0.5; /* <--- QUI decidi quanto opacizzare */
+  opacity: 0.5;
   z-index: 0;
+  background-repeat: no-repeat;
 }
 
 .hero h2, .hero p {
   position: relative;
   z-index: 1;
-  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.7);
 }
