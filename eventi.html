@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Impulso Creativo APS - EVENTI</title>
+  <link href="style.css" rel="stylesheet" />
+</head>
+<body>
+  <header>
+    <h1>IMPULSO CREATIVO APS</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="eventi.html">EVENTI</a></li>
+        <li><a href="sale.html">LE SALE</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="info">
+      <h3>PROSSIMI EVENTI</h3>
+      <ul>
+        <li>🎨 Mostra "La Cura" – 25 maggio</li>
+        <li>🎶 Live Contest – 15 giugno</li>
+        <li>📷 Workshop di Fotografia – 5 luglio</li>
+      </ul>
+      <div id="galleriaEventi" class="galleria"></div>
+    </section>
+  </main>
+  <footer>
+    <p>© 2025 Impulso Creativo APS - Tutti i diritti riservati</p>
+  </footer>
+  <script src="script.js"></script>
+  <script>
+    caricaImmagini("eventi_foto", "galleriaEventi", [
+      "2023-01-10.jpg",
+      "2023-04-20.jpg",
+      "2023-06-15.jpg"
+    ]);
+  </script>
+</body>
+</html>
