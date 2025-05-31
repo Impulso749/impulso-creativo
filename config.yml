@@ -1,0 +1,29 @@
+
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "images/uploads"
+public_folder: "/images/uploads"
+
+collections:
+  - name: "eventi"
+    label: "Eventi"
+    folder: "eventi"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Titolo", name: "title", widget: "string" }
+      - { label: "Data", name: "date", widget: "datetime" }
+      - { label: "Descrizione", name: "body", widget: "markdown" }
+      - { label: "Immagine", name: "image", widget: "image" }
+
+  - name: "sale"
+    label: "Sale"
+    folder: "sale"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Nome Sala", name: "title", widget: "string" }
+      - { label: "Descrizione", name: "body", widget: "markdown" }
+      - { label: "Immagine", name: "image", widget: "image" }
